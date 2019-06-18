@@ -1,0 +1,107 @@
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+/* Navigation Bar styles */
+.navBar{
+    background-color: #F1F1F2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar nav > ul {
+    display: inline;
+}
+.navBar nav ul li {
+    display: inline;
+    padding: 12px 16px;
+}
+.navBar a {
+    text-decoration: none;
+}
+.navBar nav a {
+    text-decoration: none;
+    color: #3A464B;
+    text-transform: uppercase;
+}
+nav ul .active {
+    color: #3ABD82;
+}
+.brand-logo {
+    margin-left: 50px;
+}
+.button-default {
+    background: #3ABD82;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+    color: #FFF;
+}
+.button-default:hover {
+    opacity: .9;
+}
+
+/* Banner styles */
+.banner {
+    height: 86vh;
+    background-image: linear-gradient(
+    to right bottom,rgba(126, 213, 111, 0.801),rgba(40, 180, 133, 0.808)
+    ),url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.banner-form {
+    background: #F1F1F2;
+    opacity: 0.999;
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    padding: 15px;
+    width: 30%;
+}
+.banner-form h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+.login-form input[type='text'], .login-form input[type='password'] {
+    padding: 12px 16px;
+    margin: 10px 0;
+    font-size: 17px;
+    width: 100%;
+}
+.login-form input[type='text']:focus, .login-form input[type='password']:focus {
+    background: #FFF;
+}
+button {
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background: #3ABD82;
+    color: #FFF;
+}
+/* Signup page style */
+.wrapper h1 {
+    text-align: center;
+}
+.signup-form {
+    width: 60%;
+    margin: auto;
+}
+.signup-form input[type='text'], .signup-form input[type='password'], .signup-form input[type='email'] {
+    padding: 12px 16px;
+    width: 100%;
+    margin: 10px 0;
+    
+}
